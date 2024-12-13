@@ -1,18 +1,19 @@
 # CO2 Emision Prediction 
 
-Project ini dibuat untuk kebutuhan final Data Science Botcamp di Startup Campus 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+Project ini dibuat untuk kebutuhan final Data Science Botcamp di Startup Campus.
+
+**Judul** : “Efektivitas Penggunaan Energi Terbarukan dalam Penurunan Emisi CO₂ di Empat Negara ASEAN : Indonesia, Malaysia, Thailand, Vietnam                                                                                                                                                                                                                                                                                                                                                                   
 ## Problem Statement
 
 Selama periode 1990-2021, pertumbuhan ekonomi dikeempat negara ASEAN yang menjadi fokus penelitian kami (Indonesia, Malaysia, Thailand, dan Vietnam) sangat bergantung pada energi fosil untuk mendukung sektor-sektor penting, seperti industri dan transportasi. Hal ini menyebabkan emisi CO₂ yang tinggi dan menghambat upaya untuk mengurangi dampak perubahan iklim. Potensi besar dari energi terbarukan seperti tenaga surya, angin, dan biomassa belum sepenuhnya dimanfaatkan, meskipun teknologi dan kebijakan pendukung semakin berkembang. Oleh karena itu, penting untuk mengevaluasi dan mengidentifikasi solusi yang dapat mempercepat transisi ini, dengan memperhatikan kondisi ekonomi dan ketergantungan pada energi fosil yang ada
 
 ## Goals
 
-Membuat model prediktif dan Membuat visualisasimelalui dashboardinteraktif untukpemantauan konsumsi energi, yang fokus padapenggunaan energi terbarukan
+Membuat model prediktif, mengetahui faktor yang paling mempengaruhi kenaikan emisi co2 dan Membuat visualisasi melalui dashboard interaktif untukpemantauan konsumsi energi, yang fokus pada penggunaan energi terbarukan
 
 ## Dataset
 
-Dataset utama diambil dari real dataset yang bersumber pada https://data-explorer.oecd.org/. 
+Dataset utama diambil dari real dataset yang bersumber pada https://data-explorer.oecd.org/. dengan cakupan waktu dari tahun 1990 - 2021 dengan referensi di Empat Negara ASEAN : Indonesia, Malaysia, Thailand, Vietnam”
 
 ## Dashboard Link
 https://public.tableau.com/views/PrintilanFinpro/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
