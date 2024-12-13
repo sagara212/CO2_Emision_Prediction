@@ -1,4 +1,4 @@
-# CO2 Emision Prediction 
+# CO2 Emision Prediction 🚕💨
 
 Project ini dibuat untuk kebutuhan final Data Science Botcamp di Startup Campus.
 
@@ -40,7 +40,22 @@ Pada tahap ini kami melalukan beberapa tahapan:
 -	Pada tahap pertama kami mengecek missing value dan duplikasi data dan didapatkan tidak ada mising value dan duplikasi pada data. 
 -	Pada tahap kedua kami membagi data pelatihan dan uji diawal untuk mencegah kebocoran data yaitu dengan rasio 80 : 20. 
 -	Pada tahap ketiga kami mengecek outlier pada data dan ditemukan beberapa variabel terdapat outlier yang kemudian kami handling menggunakan metode IQR. 
--	Kemudian pada tahap keempat kami melakukan drop beberapa variabel yang kami tidak gunakan yaitu negara dan tahun dan kemudian kami lakukan scaling pada data,  dengan menggunakan minmax scaler. 
+-	Kemudian pada tahap keempat kami melakukan drop beberapa variabel yang kami tidak gunakan yaitu negara dan tahun dan kemudian kami lakukan scaling pada data,  dengan menggunakan minmax scaler.
+
+## Explanatory Data Analysis (EDA)
+
+### Heatmap [melihat hubungan antar variabel]
+![Heatmap](image/heatmap.png)
+**Insight** : energi terbarukan memiliki korelasi negatif dengan sektor jasa dan transportasi,, menunjukkan bahwa peningkatan energi terbarukan dapat menekan emisi CO2 tanpa menghambat ekonomi. Namun perlu di barengin dengan kebijakan trasnportasi dan jasa yang menggunakan energi ramah lingkungan seperti listrik
+
+###Tren Sektor Konsumsi Energi [melihat tren konsumsi energi]
+![Tren Sektor Konsumsi Energi](image/tren sektor.png)
+
+**Insight** : energi terbarukan memiliki korelasi negatif dengan sektor jasa dan transportasi,, menunjukkan bahwa peningkatan energi terbarukan dapat menekan emisi CO2 tanpa menghambat ekonomi. Namun perlu di barengin dengan kebijakan trasnportasi dan jasa yang menggunakan energi ramah lingkungan seperti listrik
+
+###Hubungan antara Real Gdp dengan Emisi Co2 [melihat hubungan antara 2 variabel]
+###Hubungan energi terbarukan dengan Emisi Co2 [melihat hubungan antara 2 variabel]
+
 
 ## Model Selection and Analysis
 a.	Dasar Teori & Justifikasi Pemilihan Model : 
