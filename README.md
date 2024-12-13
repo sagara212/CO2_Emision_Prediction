@@ -46,7 +46,7 @@ Pada tahap ini kami melalukan beberapa tahapan:
 
 ### Heatmap [melihat hubungan antar variabel]
 ![Heatmap](image/heatmap.png)
-**Insight** : energi terbarukan memiliki korelasi negatif dengan sektor jasa dan transportasi,, menunjukkan bahwa peningkatan energi terbarukan dapat menekan emisi CO2 tanpa menghambat ekonomi. Namun perlu di barengin dengan kebijakan trasnportasi dan jasa yang menggunakan energi ramah lingkungan seperti listrik
+**Insight** : energi terbarukan memiliki korelasi negatif dengan sektor jasa dan transportasi,, menunjukkan bahwa peningkatan energi terbarukan dapat menekan emisi CO2 tanpa menghambat ekonomi. Namun perlu di garis bawahi bahwa harus dibarengin dengan kebijakan trasnportasi dan jasa yang menggunakan energi ramah lingkungan seperti listrik, supaya sektor transportasi dan jasa tidak terhambat
 
 ### Tren Sektor Konsumsi Energi [melihat tren konsumsi energi]
 ![Tren Sektor Konsumsi Energi](image/tren_sektor.png)
@@ -100,8 +100,17 @@ baseline model merupakan model terbaik yaitu dengan R² sebesar 0.985, kemudian 
 pola kompleks dalam data. Alasan kami tidak menggunakan model setalah parameter tunning karena terjadi penurunan performa pada model.
 
 ## Fitur Importance
+![Fitur Importance](image/fitur_important.png)
+
+**Insight** : feature importance menunjukkan bahwa rill gdp, energi terbarukan dan industri  memiliki pengaruh terbesar dalam model, sementara pertanian, kehutanan, dan perikanan memiliki pengaruh yang paling rendah
 
 ## Partial Dependen
+![Partial Dependen](image/pdp.png)
+
+**Insight** : 
+- Semakin tinggi nilai rill GDP, semakin besar kontribusinya terhadap peningkatan emisi CO2. Sebagai contoh, kenaikan rill GDP dari 1.5 juta USD - 1.75 juta USD  itu memicu kenaikan emisi sebesar 159 %
+- lalu Ketika penggunaan EBT naik, menunjukkan penurunan emisi CO2. Dilihat dari partial dependence diatas, pengunaan energi terbarukan ketika naik dari 25% ke 30%, terlihat ada --penurunan emisi CO2 yang cukup signifikan yaitu sebesar 234.9%
+- dan Terlihat sedikit kenaikan nilai industry yang berpotensi meningkatan emisi CO2 walaupun tidak sesignifikan seperti nilai GDP_R.
 
 
 ## Recomendation
